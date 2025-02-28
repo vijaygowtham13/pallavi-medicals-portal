@@ -123,7 +123,7 @@ const About = () => {
                 <div className="relative">
                   <div className="rounded-2xl overflow-hidden shadow-xl">
                     <img 
-                      src="/lovable-uploads/6ed0e429-51bc-4c6c-9228-740797c07ded.png" 
+                      src="/lovable-uploads/0a85beb7-cb88-40db-83a3-c2393e13ef76.png" 
                       alt="Tirupati Swami - Owner of Pallavi Medicals" 
                       className="w-full h-auto object-cover"
                     />
