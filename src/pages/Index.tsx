@@ -134,8 +134,8 @@ const Index = () => {
               <div className="relative animate-fade-in">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1631549916768-4119b4123a21?q=80&w=1979&auto=format&fit=crop" 
-                    alt="Pallavi Medicals Store" 
+                    src="/lovable-uploads/8820726d-56a2-42e9-ae5f-14ea0f76f1ab.png" 
+                    alt="Pallavi Medicals Store Interior" 
                     className="w-full h-[500px] object-cover object-center"
                   />
                   <div className="absolute inset-0 bg-medical-900/20 backdrop-blur-sm"></div>
