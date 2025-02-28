@@ -11,22 +11,22 @@ const About = () => {
 
   const milestones = [
     {
-      year: "2010",
+      year: "1994",
       title: "Establishment",
       description: "Pallavi Medicals was founded by Mr. Tirupati Swami with a vision to provide quality healthcare to Srikakulam.",
     },
     {
-      year: "2013",
+      year: "2000",
       title: "Expanded Services",
       description: "Added healthcare consultations and expanded our product range to better serve the community.",
     },
     {
-      year: "2016",
+      year: "2008",
       title: "Community Recognition",
       description: "Received local recognition for outstanding service to the community during healthcare initiatives.",
     },
     {
-      year: "2020",
+      year: "2016",
       title: "Modernization",
       description: "Updated our infrastructure and inventory management system to better serve our customers.",
     },
@@ -73,7 +73,7 @@ const About = () => {
                 About Pallavi Medicals
               </h1>
               <p className="text-xl text-gray-600">
-                Your trusted neighborhood pharmacy committed to providing quality healthcare since 2010.
+                Your trusted neighborhood pharmacy committed to providing quality healthcare since 1994.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ const About = () => {
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
                   Pallavi Medicals is owned and managed by Mr. Tirupati Swami, 
-                  a dedicated healthcare professional with over 15 years of experience 
+                  a dedicated healthcare professional with over 30 years of experience 
                   in the pharmaceutical industry.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
@@ -253,7 +253,7 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Contact Information</h3>
                   <ul className="space-y-2">
-                    <li className="text-gray-600">Phone: +91 98765 43210</li>
+                    <li className="text-gray-600">Phone: +91 94401 90357</li>
                     <li className="text-gray-600">Email: info@pallavimedicals.com</li>
                   </ul>
                 </div>

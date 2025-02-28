@@ -149,11 +149,11 @@ const Index = () => {
                   About Our Pharmacy
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                  Your Trusted Healthcare Partner Since 2010
+                  Your Trusted Healthcare Partner Since 1994
                 </h2>
                 <p className="text-lg text-gray-600">
                   Pallavi Medicals, owned by Mr. Tirupati Swami, has been serving the 
-                  Srikakulam community with dedication and care for over a decade.
+                  Srikakulam community with dedication and care for nearly three decades.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                   <div className="flex items-start">

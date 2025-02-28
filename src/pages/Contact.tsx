@@ -13,6 +13,7 @@ const Contact = () => {
   }, []);
 
   const [selectedFaq, setSelectedFaq] = useState<number | null>(null);
+  const [activeTab, setActiveTab] = useState("query");
 
   const toggleFaq = (index: number) => {
     if (selectedFaq === index) {
@@ -98,7 +99,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-medium text-gray-900 mb-1">Phone Number</h3>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-gray-600">+91 94401 90357</p>
                       <p className="text-gray-500 text-sm">Call us during business hours</p>
                     </div>
                   </div>
@@ -143,7 +144,7 @@ const Contact = () => {
               
               {/* Contact Form Tabs */}
               <div className="animate-fade-in" style={{ animationDelay: "100ms" }}>
-                <Tabs defaultValue="query" className="w-full">
+                <Tabs defaultValue="query" className="w-full" value={activeTab} onValueChange={setActiveTab}>
                   <TabsList className="grid grid-cols-2 mb-6">
                     <TabsTrigger value="query">Send a Query</TabsTrigger>
                     <TabsTrigger value="faqs">FAQs</TabsTrigger>
@@ -196,7 +197,7 @@ const Contact = () => {
                           Didn't find an answer to your question? Feel free to reach out to us.
                         </p>
                         <Button
-                          onClick={() => document.querySelector('[data-value="query"]')?.click()}
+                          onClick={() => setActiveTab("query")}
                           className="bg-medical-600 hover:bg-medical-700"
                         >
                           Contact Us

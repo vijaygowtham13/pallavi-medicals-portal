@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h3 className="text-xl font-bold mb-4">Pallavi Medicals</h3>
             <p className="text-gray-300 mb-4">
-              Providing quality healthcare products since 2010. Your trusted pharmacy for all medical needs.
+              Providing quality healthcare products since 1994. Your trusted pharmacy for all medical needs.
             </p>
             <p className="text-sm text-gray-400 mt-4">
               Delivery services coming soon!
@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary mr-2" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+91 94401 90357</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-2" />
