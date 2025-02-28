@@ -48,12 +48,13 @@ const HeroSection = () => {
           </div>
           
           <div className={`relative transition-all duration-700 delay-200 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-medical-700/10 backdrop-blur-sm z-10 rounded-2xl"></div>
               <img 
                 src="/lovable-uploads/0a85beb7-cb88-40db-83a3-c2393e13ef76.png" 
                 alt="Tirupati Swami - Owner of Pallavi Medicals" 
                 className="w-full h-full object-cover object-center"
+                style={{ objectPosition: "center 15%" }}
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900/90 to-transparent p-6 z-20">
                 <h3 className="text-white text-xl font-semibold">Tirupati Swami</h3>
